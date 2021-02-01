@@ -1,4 +1,9 @@
 site_name: CUIT ICEC Wiki
+
+# Repository
+repo_name: 'cuit_icec/icec_wiki'
+repo_url: 'https://gitee.com/cuit_icec/icec_wiki'
+
 nav:
   - 简介:
     - Home: index.md
