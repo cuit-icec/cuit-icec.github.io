@@ -6,8 +6,8 @@
 
 ```sh
 # 配置运行环境，推荐使用 virtualenv
-pip install -r requirement.txt
-# 启动本地服务器
+pip install -r requirement.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+# 启动本地服务器，可在修改文章的同时实时查看渲染效果，服务器会自动重载
 mkdocs serve
 ```
 
