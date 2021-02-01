@@ -1,0 +1,39 @@
+site_name: CUIT ICEC Wiki
+nav:
+  - 简介:
+    - Home: index.md
+    - About: about.md
+theme:
+  name: 'material'
+  language: 'zh'
+  include_search_page: false
+  search_index_only: true
+  features:
+    - tabs
+  font:
+    text: 'Fira Sans'
+    code: 'Fira Mono'
+  icon:
+    logo: material/book
+
+copyright: 'Copyright &copy; 2020 CUIT ICEC'
+site_author: ICEC
+
+extra_javascript:
+  - 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js'
+  - 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js'
+  - '_static/js/extra.js'
+
+extra_css:
+  - 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css'
+
+markdown_extensions:
+  - admonition
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      linenums: true
+      linenums_style: pymdownx.inline
+      
+  - pymdownx.superfences
+  - pymdownx.details
