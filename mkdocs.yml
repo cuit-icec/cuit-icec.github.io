@@ -28,11 +28,13 @@ nav:
       - 软件方向具体要求: study_route/soft.md
   - 工具:
     - 引导: tool/intro.md
-    - 软件:
+    - 编程:
       - 编辑器: 
         - Visual Studio Code: tool/software/code_editor/visual_studio_code.md
       - 构建工具:
         - Make: tool/software/construction_tool/Make.md
+    - 笔记:
+      - 如何记笔记: tool/note/intro.md
   - 编程基础:
     - 认识编程: programming/intro.md
     - 语言:
