@@ -19,6 +19,14 @@ nav:
     - C: programming_language/c.md
     - C++: programming_language/cpp.md
     - Python: programming_language/python.md
+  - 通讯协议:
+    - ONEWIRE: protocol/onewire.md
+    - IIC: protocol/iic.md
+    - IIS: protocol/iis.md
+    - SPI: protocol/spi.md
+    - CAN: protocol/can.md
+    - UART: protocol/uart.md
+    - USB: protocol/usb.md
 theme:
   name: 'material'
   language: 'zh'
