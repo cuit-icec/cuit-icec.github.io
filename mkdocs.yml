@@ -26,10 +26,18 @@ nav:
     - ESP32: mcu/esp32.md
     - Node MCU: mcu/node_mcu.md
     - Arduino: mcu/arduino.md
-  - 编程语言:
-    - C: programming_language/c.md
-    - C++: programming_language/cpp.md
-    - Python: programming_language/python.md
+  - 编程:
+    - 认识编程: programming/intro.md
+    - 语言:
+      - 认识语言: programming/language/intro.md
+      - C: programming/language/c.md
+      - C++: programming/language/cpp.md
+      - Python: programming/language/python.md
+    - 设计思想:
+      - 认识设计思想: programming/design_thougt/intro.md
+    - 系统:
+      - 认识系统: programming/system/intro.md
+    
   - 通讯协议:
     - ONEWIRE: protocol/onewire.md
     - IIC: protocol/iic.md
