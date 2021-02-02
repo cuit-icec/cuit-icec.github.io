@@ -6,7 +6,7 @@ repo_url: 'https://gitee.com/cuit_icec/icec_wiki'
 
 nav:
   - 简介:
-    - Home: icec/index.md
+    - Home: index.md
     - 成员: icec/members.md
     - 比赛以及作品: icec/competition.md
     # - About: about.md

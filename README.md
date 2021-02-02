@@ -15,6 +15,16 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 mkdocs serve
 ```
 
+#### 可能出现的问题：
+
+1.如果安装出现以下提示，需要将对应的script文件夹路径加入环境变量中
+
+```
+ WARNING: The script pygmentize.exe is installed in 'C:\Users\Administrator.VZMRW9ETL45BX39\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\Scripts' which is not on PATH.
+```
+
+
+
 ## 新增文章
 
 将要添加至 Wiki 的 Markdown 文件保存至 `docs` 下的文件夹中，然后修改 `mkdocs.yml` 中的 `nav` 属性，将文章的标题及路径添加至 Wiki 目录，如：
