@@ -46,6 +46,12 @@ nav:
     - CAN: protocol/can.md
     - UART: protocol/uart.md
     - USB: protocol/usb.md
+  - 模块:
+    - 传感器: module/sensor.md
+    - 显示  : module/display.md
+    - 无线: module/wireless.md
+    - 存储: module/storage.md
+
 theme:
   name: 'material'
   language: 'zh'
