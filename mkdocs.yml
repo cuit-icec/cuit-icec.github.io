@@ -19,14 +19,7 @@ nav:
       - 软件方向具体要求: study_route/soft.md
   - 工具:
     - 引导: tool/intro.md
-  - MCU:
-    - C51: mcu/c51.md
-    - STM32: mcu/stm32.md
-    - MSP432: mcu/msp432.md
-    - ESP32: mcu/esp32.md
-    - Node MCU: mcu/node_mcu.md
-    - Arduino: mcu/arduino.md
-  - 编程:
+  - 编程基础:
     - 认识编程: programming/intro.md
     - 语言:
       - 认识语言: programming/language/intro.md
@@ -37,7 +30,23 @@ nav:
       - 认识设计思想: programming/design_thougt/intro.md
     - 系统:
       - 认识系统: programming/system/intro.md
-    
+  - 硬件基础: 
+    - 模数电知识: hardware/elec.md
+    - 仿真软件的使用: hardware/simu.md
+    - 焊接技术: hardware/solder.md
+    - PCB绘制: hardware/drawpcb.md
+    - 各类元器件: hardware/component.md
+    - 仪器使用: hardware/device.md
+    - 阅读数据手册: hardware/datasheet.md
+  - FPGA:
+    - 引导: fpga/intro.md
+  - MCU:
+    - C51: mcu/c51.md
+    - STM32: mcu/stm32.md
+    - MSP432: mcu/msp432.md
+    - ESP32: mcu/esp32.md
+    - Node MCU: mcu/node_mcu.md
+    - Arduino: mcu/arduino.md  
   - 通讯协议:
     - ONEWIRE: protocol/onewire.md
     - IIC: protocol/iic.md
@@ -51,6 +60,8 @@ nav:
     - 显示  : module/display.md
     - 无线: module/wireless.md
     - 存储: module/storage.md
+  - 专业技术领域: 
+    - 引导: pro/intro.md
 
 theme:
   name: 'material'
