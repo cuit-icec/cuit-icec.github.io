@@ -20,12 +20,10 @@ nav:
   - 工具:
     - 引导: tool/intro.md
     - 软件:
-      - 编辑器:
-      - 编译器:
-      - 编译工具:
-      - 调试/烧录:
-      - IDE集成开发环境:
-      - 多人协作:
+      - 编辑器: 
+        - Visual Studio Code: tool/software/code_editor/visual_studio_code.md
+      - 构建工具:
+        - Make: tool/software/construction_tool/Make.md
   - 编程基础:
     - 认识编程: programming/intro.md
     - 语言:
