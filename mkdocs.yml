@@ -17,6 +17,8 @@ nav:
       - 进入电协后基本要求: study_route/after_in.md
       - 硬件方向具体要求: study_route/hard.md
       - 软件方向具体要求: study_route/soft.md
+  - 工具:
+    - 引导: tool/intro.md
   - MCU:
     - C51: mcu/c51.md
     - STM32: mcu/stm32.md
