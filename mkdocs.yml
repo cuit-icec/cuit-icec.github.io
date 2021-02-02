@@ -19,6 +19,13 @@ nav:
       - 软件方向具体要求: study_route/soft.md
   - 工具:
     - 引导: tool/intro.md
+    - 软件
+      - 编辑器
+      - 编译器
+      - 编译工具
+      - 调试/烧录
+      - IDE集成开发环境
+      - 多人协作
   - 编程基础:
     - 认识编程: programming/intro.md
     - 语言:
