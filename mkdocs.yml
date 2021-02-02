@@ -10,6 +10,15 @@ nav:
     - Home: index.md
     - 成员: icec/members.md
     - 比赛以及作品: icec/competition.md
+    - 资源:
+      - 引导: icec/resource/intro.md
+      - 软件安装包: icec/resource/soft.md 
+      - 数据手册: icec/resource/datasheet.md
+    - 相册: 
+      - 引导: icec/photo/intro.md
+      - 集体合照: icec/photo/together.md
+      - 历年电赛: icec/photo/ticomp.md
+    
     # - About: about.md
   - 学习路线:
     - 对大一新生的指路: study_route/to_fresh.md
