@@ -55,7 +55,7 @@ site_author: ICEC
 extra_javascript:
   - 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js'
   - 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js'
-  - '_static/js/extra.js'
+  - '_static/js/extra.js?v=1'
 
 extra_css:
   - 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css'

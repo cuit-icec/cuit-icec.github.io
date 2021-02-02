@@ -1,6 +1,6 @@
 这里是成都信息工程大学 学生电子爱好者协会。
 
-![image-20210202172000931](https://gitee.com/zhongyichen33/testtupian/raw/master/20210202174621.png)
+![image-20210202172000931](_static/images/20210202174621.png)
 
 我们决定采用 **Gitee + Markdown** 来生成静态页面，来进行一个总体知识网络的梳理。
 
