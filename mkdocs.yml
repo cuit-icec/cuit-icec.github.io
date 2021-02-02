@@ -6,8 +6,10 @@ repo_url: 'https://gitee.com/cuit_icec/icec_wiki'
 
 nav:
   - 简介:
-    - Home: index.md
-    - About: about.md
+    - Home: icec/index.md
+    - 成员: icec/members.md
+    - 比赛以及作品: icec/competition.md
+    # - About: about.md
   - MCU:
     - C51: mcu/c51.md
     - STM32: mcu/stm32.md
