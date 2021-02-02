@@ -39,14 +39,3 @@ nav:
   - 软件:
     - C 语言: software/c_language.md
 ```
-
-## 更新 Gitee Page
-
-运行如下命令生成网站后，将修改推送至仓库即可。
-
-```sh
-mkdocs build
-git add .
-git commit -m ":pencil: 新增文章“xxxxxx“"
-git push
-```
