@@ -8,6 +8,17 @@ nav:
   - 简介:
     - Home: index.md
     - About: about.md
+  - MCU:
+    - C51: mcu/c51.md
+    - STM32: mcu/stm32.md
+    - MSP432: mcu/msp432.md
+    - ESP32: mcu/esp32.md
+    - Node MCU: mcu/node_mcu.md
+    - Arduino: mcu/arduino.md
+  - 编程语言:
+    - C: programming_language/c.md
+    - C++: programming_language/cpp.md
+    - Python: programming_language/python.md
 theme:
   name: 'material'
   language: 'zh'
