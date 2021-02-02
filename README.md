@@ -1,5 +1,9 @@
 # CUIT ICEC Wiki
 
+## url
+
+[CUIT ICEC Wiki - CUIT ICEC Wiki (gitee.io)](https://cuit_icec.gitee.io/icec_wiki/)
+
 ## 起步
 
 运行环境：python 3.6+
