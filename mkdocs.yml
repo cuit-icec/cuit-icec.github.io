@@ -2,8 +2,8 @@ site_name: CUIT ICEC Wiki
 
 # Repository
 repo_name: 'cuit_icec/icec_wiki'
-repo_url: 'https://gitee.com/cuit_icec/icec_wiki'
-edit_uri: 'https://gitee.com/cuit_icec/icec_wiki/edit/main/docs/'
+repo_url: 'https://github.com/cuit-icec/cuit-icec.github.io'
+edit_uri: 'https://github.com/cuit-icec/cuit-icec.github.io/edit/main/docs/'
 
 nav:
   - 简介:
