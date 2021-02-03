@@ -143,3 +143,7 @@
 [去github查看部署进度](https://github.com/cuit-icec/cuit-icec.github.io/actions)
 
 部署完成后刷新对应的页面就能看到变更啦~
+
+## 存在文章中未提到的问题
+
+请及时反馈到该文章对应的[issue下](https://github.com/cuit-icec/cuit-icec.github.io/issues/5)
