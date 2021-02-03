@@ -33,7 +33,7 @@ jobs:
         # The Gitee username, like yanglbme
         gitee-username: tfx2001
         # The Gitee password
-        gitee-password: ${{ secrets.GITEE_SECRET }}
+        gitee-password: ${{ secrets.GITEE_PASSWORD }}
         # The Gitee repository, like doocs/leetcode
         gitee-repo: cuit_icec/icec_wiki/
         # Which branch to build
