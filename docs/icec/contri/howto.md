@@ -25,8 +25,8 @@
 
 这里的话，有两种方式：
 
-1. 将图片放入 `_static/images` 中，这种方式需要将项目 clone 下来具体看 [更灵活的编辑](#_4) ；
-2. （待补充）。
+1. 将图片放入 `_static/images` 中，这种方式需要将项目 clone 下来，具体看 [更灵活的编辑](#_5) ;
+2. （待补充）.
 
 ## 更灵活的编辑
 
@@ -34,9 +34,9 @@
 
 考虑到有不熟悉或不了解 Git 的同学，我们将给出一套 **最容易入门，不容易出错** 的完整方案。
 
-### 1.[安装git](https://cuit_icec.gitee.io/icec_wiki/tool/manage/git/)
+### 1.[安装 Git](../../../tool/manage/git/);
 
-### 2.[安装新手友好的图形化git界面-sourcetree](https://cuit_icec.gitee.io/icec_wiki/tool/manage/sourcetree/)
+### 2.[安装新手友好的图形化 Git 界面 - Sourcetree](../../../tool/manage/sourcetree/).
 
 ### 3.clone wiki仓库
 
@@ -55,3 +55,4 @@
 ![image-20210204002909114](https://gitee.com/zhongyichen33/testtupian/raw/master/20210204002909.png)
 
 ### 4.安装typora
+
