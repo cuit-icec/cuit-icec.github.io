@@ -68,3 +68,7 @@
 
 在侧边栏底部的右边![image-20210204005754508](https://gitee.com/zhongyichen33/testtupian/raw/master/20210204005754.png)
 
+### 6.安装vscode
+
+### 7.变动目录结构，添加文章
+

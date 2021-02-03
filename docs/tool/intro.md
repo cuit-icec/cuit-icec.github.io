@@ -4,12 +4,12 @@
 
 ## 这里大概分为几个大类：
 
-### 编程
+### [编程](software/intro)
 
 ### 硬件
 
 ### fpga
 
-### 项目管理协作
+### [项目管理协作](manage/intro)
 
-### [笔记](https://cuit_icec.gitee.io/icec_wiki/tool/note/intro/)
+### [笔记](note/intro/)
