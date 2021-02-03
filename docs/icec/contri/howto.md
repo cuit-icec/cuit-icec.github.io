@@ -38,3 +38,20 @@
 
 ### 2.[安装新手友好的图形化git界面-sourcetree](https://cuit_icec.gitee.io/icec_wiki/tool/manage/sourcetree/)
 
+### 3.clone wiki仓库
+
+先在本地找好要clone的文件夹，然后在该文件夹内右键，打开![image-20210204002242363](https://gitee.com/zhongyichen33/testtupian/raw/master/20210204002242.png)，然后输入以下语句：`git clone https://hub.fastgit.org/cuit-icec/cuit-icec.github.io.git`
+
+执行完后，项目就已经克隆到你的本地了，如果感觉放的位置不对，迁移这个文件夹也是可以的
+
+然后去sourcetree中打开这个文件夹，
+
+可以看到内容的提交记录
+
+![image-20210204002813871](https://gitee.com/zhongyichen33/testtupian/raw/master/20210204002813.png)
+
+还有常用的操作
+
+![image-20210204002909114](https://gitee.com/zhongyichen33/testtupian/raw/master/20210204002909.png)
+
+### 4.安装typora
