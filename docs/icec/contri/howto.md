@@ -6,7 +6,7 @@
 
 这里是github链接：  
 
-<a href="https://github.com/</a> " target="_blank">https://github.com/</a>  
+<a href="https://github.com/" target="_blank">https://github.com/</a>  
 
 <a href="https://blog.csdn.net/weixin_42693104/article/details/82584849" target="_blank">注册方法</a>  
 
@@ -42,3 +42,8 @@
 
 ### 1.安装git
 
+这里详细的写了git的相关内容
+
+https://cuit_icec.gitee.io/icec_wiki/tool/manage/git/
+
+### 2.安装新手友好的图形化git界面-sourcetree
