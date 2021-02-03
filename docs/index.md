@@ -8,7 +8,7 @@
 
 ## 如何贡献
 
-因为这个 Wiki 由于是基于 **Git** 协作的，所以大家都可以参与进来编写，:arrow_right: [贡献指南](icec/contri)。
+因为这个 Wiki 由于是基于 **Git** 协作的，所以大家都可以参与进来编写，:arrow_right: [贡献指南](icec/contri/howto)。
 
 ## 加入我们
 
