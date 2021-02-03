@@ -8,10 +8,8 @@
 
 ## 如何贡献
 
-同时这个wiki由于是基于**git**的，所以大家都可以参与进来编写，---》[这里看详细的方法](https://cuit_icec.gitee.io/icec_wiki/icec/contri)
+因为这个 Wiki 由于是基于 **Git** 协作的，所以大家都可以参与进来编写，:arrow_right: [贡献指南](icec/contri)。
 
 ## 加入我们
 
 我们主要面向大一新生招生，开学时会有新生摆点（具体的以后再写）
-
-5. 

@@ -8,7 +8,7 @@ edit_uri: 'https://gitee.com/cuit_icec/icec_wiki/edit/main/docs/'
 nav:
   - 简介:
     - Home: index.md
-    - 如何参与wiki的贡献: icec/contri.md
+    - 如何参与 Wiki 的贡献: icec/contri.md
     - 成员: icec/members.md
     - 比赛以及作品: icec/competition.md
     - 资源:
