@@ -14,7 +14,7 @@
 
 有typora，vscode等，现在一些在线文档也支持编辑markdown
 
-其中笔者觉得**最符合大多数人直觉**的可能是**typora**，
+其中笔者觉得**最符合大多数人直觉**的可能是**typora**，因为不用了解语法一样能写，typora做好了常用格式的快捷键处理。
 
 而且**typora**可以很好地进行图片管理
 
@@ -26,4 +26,4 @@ markdown往往相对让人头疼一点的是图床，
 
 因为图床要么就是速度慢，要么就是免费的不太有保障
 
-[下一篇文章](/tool/note/markdown/markdown_picbed)中就讲了图床方案的推荐
+[下一篇文章](https://cuit_icec.gitee.io/icec_wiki/tool/note/markdown/markdown_picbed)中就讲了图床方案的推荐
