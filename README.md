@@ -1,14 +1,18 @@
 # CUIT ICEC Wiki
 
-## 写在开头
+[![GitHub forks](https://img.shields.io/github/forks/cuit-icec/cuit-icec.github.io)](https://github.com/cuit-icec/cuit-icec.github.io/network)
+[![GitHub stars](https://img.shields.io/github/stars/cuit-icec/cuit-icec.github.io)](https://github.com/cuit-icec/cuit-icec.github.io/stargazers)
+[![GitHub Actions](https://github.com/cuit-icec/cuit-icec.github.io/workflows/GitHub%20Pages/badge.svg)](https://github.com/cuit-icec/cuit-icec.github.io/actions)
+
+## 写在开头 :tada:
 
 欢迎参与到电协wiki的编辑中来，每个人的付出都能为电协的知识体系贡献一份力~
 
-## url
+## URL :link:
 
 [CUIT ICEC Wiki - CUIT ICEC Wiki (gitee.io)](https://cuit_icec.gitee.io/icec_wiki/)
 
-## 起步
+## 起步 :rocket:
 
 运行环境：python 3.6+
 
@@ -23,7 +27,7 @@ mkdocs serve
 
 ![image-20210202225548628](https://gitee.com/zhongyichen33/testtupian/raw/master/20210202225548.png)
 
-#### 可能出现的问题：
+#### 可能出现的问题 :question:
 
 1.如果安装出现以下提示，需要将对应的script文件夹路径加入环境变量中
 
@@ -31,7 +35,7 @@ mkdocs serve
  WARNING: The script pygmentize.exe is installed in 'C:\Users\Administrator.VZMRW9ETL45BX39\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\Scripts' which is not on PATH.
 ```
 
-## 新增文章
+## 新增文章 :pencil:
 
 将要添加至 Wiki 的 Markdown 文件保存至 `docs` 下的文件夹中，然后修改 `mkdocs.yml` 中的 `nav` 属性，将文章的标题及路径添加至 Wiki 目录，如：
 
