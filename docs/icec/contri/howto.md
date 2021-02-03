@@ -72,7 +72,9 @@
 
 1.超链接: 尽量使用相对路径，直接按照md文件之间的相对路径来写就行。
 
-​		比如:`[6.安装vscode](../../tool/software/code_editor/visual_studio_code.md)`
+- 比如:`[6.安装vscode](../../tool/software/code_editor/visual_studio_code.md)`
+
+- 可以通过在typora中 **ctrl + 点击超链接** 来确认相对路径是否正确，如果正确会跳出对应md文件的新窗口
 
 2.[在文章中添加图片](#_4)
 
@@ -84,7 +86,7 @@
 
 (右键文件夹空白处->通过vscode打开，或vscode -> 文件 -> 打开文件夹）
 
-2.选择mkdocs.yml,我们需要通过修改这个文件来进行目录的变更还有文章的添加，
+2.选择**mkdocs.yml**,我们需要通过**修改这个文件**来进行目录的变更还有文章的添加，
 
 格式很简单，其实看文件现有的内容就大概能明白
 
