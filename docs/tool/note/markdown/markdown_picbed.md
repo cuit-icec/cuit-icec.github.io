@@ -2,3 +2,16 @@
 
 ## 这边推荐的方案是 typora+picgo+gitee做图床
 
+### 直接参考别人的文章
+
+https://www.cnblogs.com/focksor/p/12402471.html
+
+### 软件下载
+
+**[picgo-图床工具](https://cuit_icec.gitee.io/icec_wiki/tool/note/markdown/picgo/)**
+
+**[typora-markdown编辑](https://cuit_icec.gitee.io/icec_wiki/tool/note/markdown/typora/)**
+
+### 遇到的问题
+
+1. 设置gitee仓库一开始一直不行，后面发现是
