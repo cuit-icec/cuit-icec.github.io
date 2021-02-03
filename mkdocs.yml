@@ -37,6 +37,8 @@ nav:
     - 编程:
       - 编辑器: 
         - Visual Studio Code: tool/software/code_editor/visual_studio_code.md
+        - Sublime Text: tool/software/code_editor/sublime_text.md
+        - Notepad++: tool/software/code_editor/notepad++.md
       - 构建工具:
         - Make: tool/software/construction_tool/make.md
     - 笔记:
