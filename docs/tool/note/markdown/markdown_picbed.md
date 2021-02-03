@@ -8,9 +8,9 @@ https://www.cnblogs.com/focksor/p/12402471.html
 
 ### 软件下载
 
-**[picgo-图床工具](https://cuit_icec.gitee.io/icec_wiki/tool/note/markdown/picgo/)**
+**[picgo-图床工具](picgo.md)**
 
-**[typora-markdown编辑](https://cuit_icec.gitee.io/icec_wiki/tool/note/markdown/typora/)**
+**[typora-markdown编辑](typora.md)**
 
 ### 遇到的问题
 
