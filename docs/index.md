@@ -8,7 +8,7 @@
 
 ## 如何贡献
 
-同时这个wiki由于是基于**git**的，所以大家都可以参与进来编写，---》[这里看详细的方法](https://cuit_icec.gitee.io/icec_wiki/icec/contri.md)
+同时这个wiki由于是基于**git**的，所以大家都可以参与进来编写，---》[这里看详细的方法](https://cuit_icec.gitee.io/icec_wiki/icec/contri)
 
 ## 加入我们
 
