@@ -14,6 +14,12 @@
 
 我们主要面向大一新生招生，开学时会有新生摆点（具体的以后再写）
 
+## Contributors
+
+<a href="https://github.com/cuit-icec/cuit-icec.github.io/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=cuit-icec/cuit-icec.github.io" />
+</a>
+
 ## 感谢
 
 本项目受 [OI Wiki ](https://oi-wiki.org/) 的启发，特此感谢。
