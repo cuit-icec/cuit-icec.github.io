@@ -34,9 +34,9 @@
 
 考虑到有不熟悉或不了解 Git 的同学，我们将给出一套 **最容易入门，不容易出错** 的完整方案。
 
-### 1.[安装 Git](../../../tool/manage/git/);
+### 1.[安装 Git](../../tool/manage/git.md)；
 
-### 2.[安装新手友好的图形化 Git 界面 - Sourcetree](../../../tool/manage/sourcetree/).
+### 2.[安装新手友好的图形化 Git 界面 - Sourcetree](../../tool/manage/sourcetree.md)；
 
 ### 3.clone wiki仓库
 
