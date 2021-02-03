@@ -1,0 +1,44 @@
+# This workflow will install Python dependencies, run tests and lint with a variety of Python versions
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: Build docs
+      run: |
+        mkdocs build
+    - name: Gitee Pages Action
+      uses: yanglbme/gitee-pages-action@v1.2.6
+      with:
+        # The Gitee username, like yanglbme
+        gitee-username: tfx2001
+        # The Gitee password
+        gitee-password: ${{ secrets.GITEE_SECRET }}
+        # The Gitee repository, like doocs/leetcode
+        gitee-repo: cuit_icec/icec_wiki/
+        # Which branch to build
+        branch: gh-pages
+        # Which directory to build
+        directory: 'site'
+        # Use force https or not
+        https: true
