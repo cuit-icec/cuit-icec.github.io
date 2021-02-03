@@ -77,7 +77,7 @@ nav:
     - CAN: protocol/can.md
     - UART: protocol/uart.md
     - USB: protocol/usb.md
-  - 模块:
+  - 模块/芯片:
     - 传感器: module/sensor.md
     - 显示  : module/display.md
     - 无线: module/wireless.md
