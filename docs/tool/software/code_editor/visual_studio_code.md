@@ -5,3 +5,7 @@ vscode是一个现代化的，好看的，具有很多插件（通过装插件�
 ## 下载
 
 [vscode官网](https://code.visualstudio.com/)
+
+## 安装
+
+安装的过程中最好把加入右键菜单选上，会很方便

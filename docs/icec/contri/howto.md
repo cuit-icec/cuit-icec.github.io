@@ -68,7 +68,34 @@
 
 在侧边栏底部的右边![image-20210204005754508](https://gitee.com/zhongyichen33/testtupian/raw/master/20210204005754.png)
 
-### 6.安装vscode
+### [6.安装vscode](../../tool/software/code_editor/visual_studio_code)
 
 ### 7.变动目录结构，添加文章
 
+使用vscode打开我们的项目，选择mkdocs.yml,我们需要通过修改这个文件来进行目录的变更还有文章的添加，
+
+格式很简单，其实看文件现有的内容就大概能明白
+
+![image-20210204014812545](https://gitee.com/zhongyichen33/testtupian/raw/master/20210204014812.png)
+
+`- Home: index.md`相当于网页侧边栏直接指向一个文章页面，Home对应的栏目名称，index.md对应的在docs文件夹中的相对路径
+
+![image-20210204015002101](https://gitee.com/zhongyichen33/testtupian/raw/master/20210204015002.png)
+
+```
+- 参与 Wiki 的贡献: 
+      - 如何参与贡献: icec/contri/howto.md
+      - 当前人员分配: icec/contri/member.md
+```
+
+这样一个格式相当于形成了二级目录，
+
+**<u>注意：</u>**
+
+1.只写一句`- 参与 Wiki 的贡献: `而后面既不跟文件名，又不跟二级目录**是不行的，会报错的**！
+
+2.**横线**后面需要有**空格**，然后如果是指向文件**冒号**后面需要有**空格**
+
+3.新建的md文件名最好是**英文**。因为路径会跟网页路径一致，中文的网页路径会变得又臭又长
+
+### 8.提交文章
