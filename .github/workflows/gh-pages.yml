@@ -34,12 +34,13 @@ jobs:
         FOLDER: site # The folder the action should deploy.
         CLEAN: true # Automatically remove deleted files from the deploy branch
     - name: Sync to Gitee 🔄
-      uses: pixta-dev/repository-mirroring-action@v1
+      uses: wei/git-sync@v3
       with:
-        target_repo_url:
-          git@gitee.com:cuit_icec/icec_wiki.git
-        ssh_private_key:                                # <-- use 'secrets' to pass credential information.
-          ${{ secrets.GITEE_SSH_PRIVATE_KEY }}
+        source_repo: "cuit-icec/cuit-icec.github.io"
+        source_branch: "refs/remotes/source/*"
+        destination_repo: "git@gitee.com:cuit_icec/icec_wiki.git"
+        destination_branch: "refs/heads/*"
+        ssh_private_key: ${{ secrets.GITEE_SSH_PRIVATE_KEY }}
     - name: Gitee Pages Action
       uses: yanglbme/gitee-pages-action@v1.2.6
       with:
