@@ -142,7 +142,7 @@
 
 ### 10.顺利提交，等待github action部署
 
-[去github查看部署进度](https://github.com/cuit-icec/cuit-icec.github.io/actions)
+**[去github查看部署进度](https://github.com/cuit-icec/cuit-icec.github.io/actions)**
 
 部署完成后刷新对应的页面就能看到变更啦~
 

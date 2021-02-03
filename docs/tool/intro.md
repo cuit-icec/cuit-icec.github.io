@@ -4,12 +4,12 @@
 
 ## 这里大概分为几个大类：
 
-### [编程](software/intro)
+### [编程](software/intro.md)
 
 ### 硬件
 
 ### fpga
 
-### [项目管理协作](manage/intro)
+### [项目管理协作](manage/intro.md)
 
-### [笔记](note/intro/)
+### [笔记](note/intro.md)
