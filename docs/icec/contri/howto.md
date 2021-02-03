@@ -25,7 +25,7 @@
 
 这里的话，有两种方式：
 
-1. 将图片放入 `_static/images` 中，这种方式需要将项目 clone 下来，具体看 [clone到本地编辑](#_5) ；
+1. 将图片放入 `_static/images` 中，这种方式需要将项目 clone 下来，具体看 [clone到本地编辑](#clone) ；
 2. （待补充）。
 
 ## clone到本地编辑
