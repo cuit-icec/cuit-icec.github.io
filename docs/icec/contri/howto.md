@@ -34,6 +34,25 @@
 
 考虑到有不熟悉或不了解 Git 的同学，我们将给出一套 **最容易入门，不容易出错** 的完整方案。
 
-1.[安装 Git](../../../tool/manage/git/)；
+### 1.[安装 Git](../../../tool/manage/git/);
 
-2.[安装新手友好的图形化 Git 界面 - Sourcetree](../../../tool/manage/sourcetree/)。
+### 2.[安装新手友好的图形化 Git 界面 - Sourcetree](../../../tool/manage/sourcetree/).
+
+### 3.clone wiki仓库
+
+先在本地找好要clone的文件夹，然后在该文件夹内右键，打开![image-20210204002242363](https://gitee.com/zhongyichen33/testtupian/raw/master/20210204002242.png)，然后输入以下语句：`git clone https://hub.fastgit.org/cuit-icec/cuit-icec.github.io.git`
+
+执行完后，项目就已经克隆到你的本地了，如果感觉放的位置不对，迁移这个文件夹也是可以的
+
+然后去sourcetree中打开这个文件夹，
+
+可以看到内容的提交记录
+
+![image-20210204002813871](https://gitee.com/zhongyichen33/testtupian/raw/master/20210204002813.png)
+
+还有常用的操作
+
+![image-20210204002909114](https://gitee.com/zhongyichen33/testtupian/raw/master/20210204002909.png)
+
+### 4.安装typora
+
