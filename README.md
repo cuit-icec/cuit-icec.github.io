@@ -27,7 +27,7 @@ mkdocs serve
 
 ![image-20210202225548628](https://gitee.com/zhongyichen33/testtupian/raw/master/20210202225548.png)
 
-#### 可能出现的问题 :question:
+### 可能出现的问题 :question:
 
 1.如果安装出现以下提示，需要将对应的script文件夹路径加入环境变量中
 
