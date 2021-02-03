@@ -42,17 +42,29 @@
 
 先在本地找好要clone的文件夹，然后在该文件夹内右键，打开![image-20210204002242363](https://gitee.com/zhongyichen33/testtupian/raw/master/20210204002242.png)，然后输入以下语句：`git clone https://hub.fastgit.org/cuit-icec/cuit-icec.github.io.git`
 
-执行完后，项目就已经克隆到你的本地了，如果感觉放的位置不对，迁移这个文件夹也是可以的
+执行完后，项目就已经克隆到你的本地了，**如果感觉放的位置不对，迁移这个文件夹也是可以的**
 
 然后去sourcetree中打开这个文件夹，
 
-可以看到内容的提交记录
+可以看到内容的**提交记录**
 
 ![image-20210204002813871](https://gitee.com/zhongyichen33/testtupian/raw/master/20210204002813.png)
 
-还有常用的操作
+还有顶栏里的**常用操作**
 
 ![image-20210204002909114](https://gitee.com/zhongyichen33/testtupian/raw/master/20210204002909.png)
 
-### 4.安装typora
+### 4.[安装typora](../../../tool/note/markdown/typora/)
+
+### 5.编写文章
+
+使用typora打开项目**根目录中的readme.md**
+
+![image-20210204005619174](https://gitee.com/zhongyichen33/testtupian/raw/master/20210204005619.png)
+
+大概看到的界面是这样的，然后就可以**开始编写**了
+
+如果侧边栏不是树形结构，建议**切换成树形结构**
+
+在侧边栏底部的右边![image-20210204005754508](https://gitee.com/zhongyichen33/testtupian/raw/master/20210204005754.png)
 
