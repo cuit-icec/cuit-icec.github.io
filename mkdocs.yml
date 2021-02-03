@@ -32,9 +32,11 @@ nav:
   - 工具:
     - 引导: tool/intro.md
     - 项目协作及管理:
+      - 协作管理相关的工具: tool/manage/intro.md
       - 版本管理工具git: tool/manage/git.md
       - git图形界面sourcetree: tool/manage/sourcetree.md
     - 编程:
+      - 编程相关的工具: tool/software/intro.md
       - 编辑器: 
         - Visual Studio Code: tool/software/code_editor/visual_studio_code.md
         - Sublime Text: tool/software/code_editor/sublime_text.md
