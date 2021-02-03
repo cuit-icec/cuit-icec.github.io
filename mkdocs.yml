@@ -33,14 +33,14 @@ nav:
       - 编辑器: 
         - Visual Studio Code: tool/software/code_editor/visual_studio_code.md
       - 构建工具:
-        - Make: tool/software/construction_tool/Make.md
+        - Make: tool/software/construction_tool/make.md
     - 笔记:
       - 笔记相关的工具: tool/note/intro.md
-      - markdown: 
-        - markdown介绍及周边工具: tool/note/markdown/intro1.md
-        - 图床方案汇总: tool/note/markdown/markdown_picbed.md
-        - 图床辅助工具Picgo: tool/note/markdown/picgo.md
-        - markdown编辑工具typora: tool/note/markdown/typora.md
+      - Markdown: 
+        - 介绍: tool/note/markdown/intro.md
+        - Picgo: tool/note/markdown/picgo.md
+        - Typora: tool/note/markdown/typora.md
+        - 图床方案: tool/note/markdown/markdown_picbed.md
   - 编程基础:
     - 认识编程: programming/intro.md
     - 语言:
