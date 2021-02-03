@@ -31,6 +31,8 @@ nav:
       - 软件方向具体要求: study_route/soft.md
   - 工具:
     - 引导: tool/intro.md
+    - 项目协作及管理:
+      - git: tool/manage/git.md
     - 编程:
       - 编辑器: 
         - Visual Studio Code: tool/software/code_editor/visual_studio_code.md

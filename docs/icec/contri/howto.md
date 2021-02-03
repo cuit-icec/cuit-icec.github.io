@@ -1,5 +1,15 @@
 欢迎电协的每一位同学加入到这个 Wiki 的编辑中来，让大家的知识更加集中。
 
+## 大大大前提
+
+你需要注册一个github账号
+
+这里是github链接：  
+
+<a href="https://github.com/</a> " target="_blank">https://github.com/</a>  
+
+<a href="https://blog.csdn.net/weixin_42693104/article/details/82584849" target="_blank">注册方法</a>  
+
 ## 修改编辑
 
 在参与 Wiki 的编写 **需要** 一个 GitHub 账号，**但不需要** 高超的 GitHub 技巧。
@@ -29,3 +39,6 @@
 把项目 **clone** 下来可以更灵活的编辑内容，如 **图片，目录结构，新增文章** 等。
 
 考虑到有不熟悉或不了解 Git 的同学，我们将给出一套 **最容易入门，不容易出错** 的完整方案。
+
+### 1.安装git
+
