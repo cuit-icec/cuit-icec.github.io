@@ -12,4 +12,4 @@
 
 ### 项目管理协作
 
-### [笔记](/tool/note/intro/)
+### [笔记](https://cuit_icec.gitee.io/icec_wiki/tool/note/intro/)
