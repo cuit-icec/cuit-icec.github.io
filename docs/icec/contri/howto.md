@@ -54,7 +54,7 @@
 
 ![image-20210204002909114](https://gitee.com/zhongyichen33/testtupian/raw/master/20210204002909.png)
 
-### 4.[安装typora](../../../tool/note/markdown/typora/)
+### 4.[安装typora](../../tool/note/markdown/typora.md)
 
 ### 5.编写文章
 
@@ -68,7 +68,15 @@
 
 在侧边栏底部的右边![image-20210204005754508](https://gitee.com/zhongyichen33/testtupian/raw/master/20210204005754.png)
 
-### [6.安装vscode](../../tool/software/code_editor/visual_studio_code)
+**<u>关于内容要求</u>**
+
+1.超链接: 尽量使用相对路径，直接按照md文件之间的相对路径来写就行。
+
+​		比如:`[6.安装vscode](../../tool/software/code_editor/visual_studio_code.md)`
+
+2.[图片](#_4)
+
+### [6.安装vscode](../../tool/software/code_editor/visual_studio_code.md)
 
 ### 7.变动目录结构，添加文章
 
