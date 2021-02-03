@@ -40,10 +40,6 @@
 
 考虑到有不熟悉或不了解 Git 的同学，我们将给出一套 **最容易入门，不容易出错** 的完整方案。
 
-### 1.安装git
+### 1.[安装git](https://cuit_icec.gitee.io/icec_wiki/tool/manage/git/)
 
-这里详细的写了git的相关内容
-
-https://cuit_icec.gitee.io/icec_wiki/tool/manage/git/
-
-### 2.安装新手友好的图形化git界面-sourcetree
+### 2.[安装新手友好的图形化git界面-sourcetree](https://cuit_icec.gitee.io/icec_wiki/tool/manage/git/)
