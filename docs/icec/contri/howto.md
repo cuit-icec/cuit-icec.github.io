@@ -130,4 +130,8 @@
 
 这样操作之后，回到sourcetree里，保存未暂存文件，会发现里面的冲突不见了，下面的描述框里面会有一大段英文描述自动帮你写好了，然后我们进行一次提交和推送，**冲突解决，[提交成功](#10github-action)。**
 
-### 10.顺利提交，等待[github action的部署](https://github.com/cuit-icec/cuit-icec.github.io/actions)
+### 10.顺利提交，等待github action部署
+
+[去github查看部署进度](https://github.com/cuit-icec/cuit-icec.github.io/actions)
+
+部署完成后刷新对应的页面就能看到变更啦~
