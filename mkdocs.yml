@@ -117,12 +117,15 @@ extra_css:
   - 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css'
 
 markdown_extensions:
+  - smarty
   - admonition
   - pymdownx.emoji:
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.highlight:
       linenums: true
       linenums_style: pymdownx.inline
-      
+
   - pymdownx.superfences
   - pymdownx.details
+  - toc:
+      permalink: true
