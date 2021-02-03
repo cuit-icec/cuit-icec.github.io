@@ -105,7 +105,7 @@ theme:
   icon:
     logo: material/book
 
-copyright: 'Copyright &copy; 2020 CUIT ICEC'
+copyright: 'Copyright &copy; 2021 CUIT ICEC'
 site_author: ICEC
 
 extra_javascript:
