@@ -1,14 +1,8 @@
 欢迎电协的每一位同学加入到这个 Wiki 的编辑中来，让大家的知识更加集中。
 
-## 大大大前提
+## 前提
 
-你需要注册一个github账号
-
-这里是github链接：  
-
-<a href="https://github.com/" target="_blank">https://github.com/</a>  
-
-<a href="https://blog.csdn.net/weixin_42693104/article/details/82584849" target="_blank">注册方法</a>  
+你需要注册一个 GitHub 账号，[注册新 GitHub 帐户 - GitHub Docs](https://docs.github.com/cn/github/getting-started-with-github/signing-up-for-a-new-github-account).
 
 ## 修改编辑
 
@@ -40,10 +34,7 @@
 
 考虑到有不熟悉或不了解 Git 的同学，我们将给出一套 **最容易入门，不容易出错** 的完整方案。
 
-### 1.安装git
+1. [安装 Git](https://cuit_icec.gitee.io/icec_wiki/tool/manage/git/)；
 
-这里详细的写了git的相关内容
+2. 安装新手友好的图形化 Git 界面 [Sourcetree](https://www.sourcetreeapp.com/)。
 
-https://cuit_icec.gitee.io/icec_wiki/tool/manage/git/
-
-### 2.安装新手友好的图形化git界面-sourcetree
