@@ -36,4 +36,5 @@
 
 ### 1.[安装git](https://cuit_icec.gitee.io/icec_wiki/tool/manage/git/)
 
-### 2.[安装新手友好的图形化git界面-sourcetree](https://cuit_icec.gitee.io/icec_wiki/tool/manage/git/)
+### 2.[安装新手友好的图形化git界面-sourcetree](https://cuit_icec.gitee.io/icec_wiki/tool/manage/sourcetree/)
+
