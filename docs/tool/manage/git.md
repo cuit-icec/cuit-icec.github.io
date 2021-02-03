@@ -6,7 +6,7 @@
 
 ### windows版本下载传送门
 
-https://npm.taobao.org/mirrors/git-for-windows/
+[https://npm.taobao.org/mirrors/git-for-windows/](https://npm.taobao.org/mirrors/git-for-windows/)
 
 ### 选择版本
 
