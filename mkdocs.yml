@@ -9,8 +9,8 @@ nav:
   - 简介:
     - Home: index.md
     - 参与 Wiki 的贡献: 
-      - 如何参与贡献: icec/howto.md
-      - 当前人员分配: icec/member.md
+      - 如何参与贡献: icec/contri/howto.md
+      - 当前人员分配: icec/contri/member.md
     - 成员: icec/members.md
     - 比赛以及作品: icec/competition.md
     - 资源:
