@@ -26,7 +26,7 @@
 这里的话，有两种方式：
 
 1. 将图片放入 `_static/images` 中，这种方式需要将项目 clone 下来，具体看 [clone到本地编辑](#clone) ；
-2. （待补充）。
+2. [使用gitee图床](../../tool/note/markdown/markdown_picbed.md)。为了确保稳定性请不要使用其余图床，并且保证你的仓库标记清楚，不会过段时间忘了把它删掉。
 
 ## clone到本地编辑
 
@@ -74,7 +74,7 @@
 
 ​		比如:`[6.安装vscode](../../tool/software/code_editor/visual_studio_code.md)`
 
-2.[图片](#_4)
+2.[在文章中添加图片](#_4)
 
 ### [6.安装vscode](../../tool/software/code_editor/visual_studio_code.md)
 
@@ -146,4 +146,4 @@
 
 ## 存在文章中未提到的问题
 
-请及时反馈到该文章对应的[issue下](https://github.com/cuit-icec/cuit-icec.github.io/issues/5)
+请及时反馈到该文章对应的**[issue下](https://github.com/cuit-icec/cuit-icec.github.io/issues/5)**
