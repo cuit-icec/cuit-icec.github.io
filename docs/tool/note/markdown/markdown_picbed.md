@@ -4,7 +4,11 @@
 
 ### 直接参考别人的文章
 
-https://www.cnblogs.com/focksor/p/12402471.html
+[https://www.cnblogs.com/focksor/p/12402471.html](https://www.cnblogs.com/focksor/p/12402471.html)
+
+### 其实还有一套方案就是 typora+picgo+七牛云做图床
+
+[https://blog.csdn.net/weixin_44065323/article/details/108272056?spm=1001.2014.3001.5501](https://blog.csdn.net/weixin_44065323/article/details/108272056?spm=1001.2014.3001.5501)
 
 ### 软件下载
 
