@@ -121,7 +121,7 @@ git clone https://hub.fastgit.org/cuit-icec/cuit-icec.github.io.git
 
 ![image-20210204022132477](https://gitee.com/zhongyichen33/testtupian/raw/master/20210204022132.png)
 
-点击 **暂存所有**，在下放栏目中写上 **简略的注释**（TODO：注释规范），点击 **提交**；
+点击 **暂存所有**，在下方栏目中写上本次提交的信息，请参考 [commit messages 规范](commit-messages.md)，然后点击 **提交**；
 
 ![image-20210204022403436](https://gitee.com/zhongyichen33/testtupian/raw/master/20210204022403.png)
 
