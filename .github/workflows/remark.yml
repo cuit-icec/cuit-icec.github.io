@@ -1,4 +1,4 @@
-name: remark-lint PR
+name: remark-lint Check
 
 on:
   push:
@@ -11,15 +11,12 @@ jobs:
     steps:
     - name: Checkout 🛎️
       uses: actions/checkout@v2
-    - name: Setup Node.js environment
-      uses: actions/setup-node@v2.1.4
+    - name: Run remark-lint with reviewdog
+      # You may pin to the exact commit or the version.
+      # uses: reviewdog/action-remark-lint@67b6b605777eb1f119ba445a53a5af39d4a4568d
+      uses: reviewdog/action-remark-lint@v2.0.0
       with:
-        node-version: 12.x
-    - name: Install dependencies
-      run: |
-        npm install
-        npx remark ./docs -o -S
-    - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v3
-      with:
-        title: ":pencil2: remark-lint fix typo"
+        # Working directory relative to the root directory.
+        workdir: ./docs
+        level: warning
+        fail_on_error: true
