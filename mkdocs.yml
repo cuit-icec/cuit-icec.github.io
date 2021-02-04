@@ -93,6 +93,7 @@ nav:
     - 存储: module/storage.md
   - 专业技术领域: 
     - 引导: pro/intro.md
+    - 机器学习: mechine_learning.md
 
 theme:
   name: 'material'
