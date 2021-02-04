@@ -93,14 +93,17 @@ nav:
     - 显示  : module/display.md
     - 无线: module/wireless.md
     - 存储: module/storage.md
-  - 专业技术领域: 
+  - 专业技术领域:
     - 引导: pro/intro.md
-    - 机器学习: 
-      - 引导: pro/mechine_learning/introduce.md
-      - 基础知识:
-        - 线性回归: pro/mechine_learning/basic_knowledge/linear_regression.md
-      - 编程实践:
-        - 工具: pro/mechine_learning/programming/tools.md
+    - 人工智能: 
+      - 机器学习: 
+        - 引导: pro/mechine_learning/introduce.md
+        - 基础知识:
+          - 线性回归: pro/mechine_learning/basic_knowledge/linear_regression.md
+        - 编程实践:
+          - 工具: pro/mechine_learning/programming/tools.md
+      - 深度学习:
+        - 引导: pro/deep_learning/intro.md
 
 theme:
   name: null
