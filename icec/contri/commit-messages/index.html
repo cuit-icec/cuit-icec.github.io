@@ -52,6 +52,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -394,9 +399,36 @@
     <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        commit messages 规范
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
     <a href="./" title="commit messages 规范" class="md-nav__link md-nav__link--active">
       commit messages 规范
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    参考链接
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -1810,6 +1842,34 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    参考链接
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -1835,7 +1895,7 @@
 </code></pre></div>
 </td></tr></table>
 
-<p>这里，我们采用 emoji 表情向仓库维护者简要地表明当前提交的类型，<code>&lt;emoji&gt;</code> 的选择包括：</p>
+<p>这里，我们采用 emoji<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> 表情向仓库维护者简要地表明当前提交的类型，<code>&lt;emoji&gt;</code> 的选择包括：</p>
 <table>
 <thead>
 <tr>
@@ -1845,7 +1905,7 @@
 </thead>
 <tbody>
 <tr>
-<td><img alt="📝" class="emojione" src="https://twemoji.maxcdn.com/v/latest/svg/1f4dd.svg" title=":pencil:" /> <code>:pencil:</code>​</td>
+<td>:memo: <code>:memo:</code>​</td>
 <td>新建页面</td>
 </tr>
 <tr>
@@ -1895,6 +1955,15 @@
 <div class="admonition warning">
 <p class="admonition-title">注意</p>
 <p><strong>一个 commit 的粒度不宜过大</strong>，如果过大，需拆分成多个 commit。</p>
+</div>
+<h2 id="_1">参考链接<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p><a href="https://gitmoji.dev/">gitmoji | An emoji guide for your commit messages</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
 </div>
                 
               
