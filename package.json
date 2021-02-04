@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "remark-clang-format": "^1.0.1",
+    "remark-cli": "^8.0.0",
+    "remark-copywriting-correct": "^0.5.0",
+    "remark-details": "^2.0.2",
+    "remark-footnotes": "^1.0.0",
+    "remark-lint-final-newline": "^1.0.2",
+    "remark-lint-no-tabs": "^1.0.2",
+    "remark-math": "^1.0.5",
+    "remark-math-space": "^1.4.0",
+    "remark-preset-lint-markdown-style-guide": "^2.1.2",
+    "remark-pangu": "^2.2.0"
+  },
+  "name": "cuit-icec.github.io",
+  "version": "1.0.0",
+  "description": "ICEC Wiki",
+  "main": "index.js",
+  "repository": "git@github.com:cuit-icec/cuit-icec.github.io.git",
+  "author": "tfx2001 <2479727366@qq.com>",
+  "license": "UNLICENCED",
+  "private": true
+}

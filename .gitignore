@@ -137,3 +137,5 @@ cython_debug/
 /.vscode
 
 /site
+
+node_modules/
