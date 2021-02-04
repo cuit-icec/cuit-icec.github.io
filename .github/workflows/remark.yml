@@ -17,8 +17,8 @@ jobs:
         node-version: 12.x
     - name: Install dependencies
       run: |
-        npm install -g
-        remark ./docs -o -S
+        npm install
+        npm run remark ./docs -o -S
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3
       with:
