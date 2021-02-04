@@ -17,7 +17,7 @@
     
     
       
-        <title>数据手册 - CUIT ICEC Wiki</title>
+        <title>commit messages 规范 - CUIT ICEC Wiki</title>
       
     
     
@@ -76,7 +76,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              数据手册
+              commit messages 规范
             
           </span>
         </div>
@@ -351,10 +351,12 @@
           
           
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-2" type="checkbox" id="nav-1-2">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-2" type="checkbox" id="nav-1-2" checked>
     
     <label class="md-nav__link" for="nav-1-2">
       参与 Wiki 的贡献
@@ -374,7 +376,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../contri/howto/" title="如何参与贡献" class="md-nav__link">
+    <a href="../howto/" title="如何参与贡献" class="md-nav__link">
       如何参与贡献
     </a>
   </li>
@@ -384,11 +386,18 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../../contri/commit-messages/" title="commit messages 规范" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+    <a href="./" title="commit messages 规范" class="md-nav__link md-nav__link--active">
       commit messages 规范
     </a>
+    
   </li>
 
         
@@ -398,7 +407,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../contri/member/" title="当前人员分配" class="md-nav__link">
+    <a href="../member/" title="当前人员分配" class="md-nav__link">
       当前人员分配
     </a>
   </li>
@@ -437,12 +446,10 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-5" type="checkbox" id="nav-1-5" checked>
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-5" type="checkbox" id="nav-1-5">
     
     <label class="md-nav__link" for="nav-1-5">
       资源
@@ -462,7 +469,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../intro/" title="引导" class="md-nav__link">
+    <a href="../../resource/intro/" title="引导" class="md-nav__link">
       引导
     </a>
   </li>
@@ -474,7 +481,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../soft/" title="软件安装包" class="md-nav__link">
+    <a href="../../resource/soft/" title="软件安装包" class="md-nav__link">
       软件安装包
     </a>
   </li>
@@ -484,18 +491,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-    
-    <a href="./" title="数据手册" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../../resource/datasheet/" title="数据手册" class="md-nav__link">
       数据手册
     </a>
-    
   </li>
 
         
@@ -1815,7 +1815,7 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/cuit-icec/cuit-icec.github.io/edit/main/docs/icec/resource/datasheet.md" title="编辑此页" class="md-content__button md-icon">
+                  <a href="https://github.com/cuit-icec/cuit-icec.github.io/edit/main/docs/icec/contri/commit-messages.md" title="编辑此页" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
@@ -1823,9 +1823,79 @@
                   
                 
                 
-                  <h1>数据手册</h1>
+                  <h1>commit messages 规范</h1>
                 
-                <p>数据手册</p>
+                <p>为了创建一套清晰的提交历史，我们对 <strong>commit messages</strong> 做出如下规定。</p>
+<p>基本格式：</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>&lt;emoji&gt; &lt;描述&gt;
+
+[可选的正文]
+</code></pre></div>
+</td></tr></table>
+
+<p>这里，我们采用 emoji 表情向仓库维护者简要地表明当前提交的类型，<code>&lt;emoji&gt;</code> 的选择包括：</p>
+<table>
+<thead>
+<tr>
+<th>emoji 表情及其对应的 Markdown 代码，可直接在 message 中使用</th>
+<th>类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="📝" class="emojione" src="https://twemoji.maxcdn.com/v/latest/svg/1f4dd.svg" title=":pencil:" /> <code>:pencil:</code>​</td>
+<td>新建页面</td>
+</tr>
+<tr>
+<td><img alt="✏️" class="emojione" src="https://twemoji.maxcdn.com/v/latest/svg/270f.svg" title=":pencil2:" /> <code>:pencil2:</code>​</td>
+<td>修改页面内容、错字以及排版</td>
+</tr>
+<tr>
+<td><img alt="🐛" class="emojione" src="https://twemoji.maxcdn.com/v/latest/svg/1f41b.svg" title=":bug:" /> <code>:bug:</code></td>
+<td>修复除内容以外的错误</td>
+</tr>
+<tr>
+<td><img alt="✨" class="emojione" src="https://twemoji.maxcdn.com/v/latest/svg/2728.svg" title=":sparkles:" /> <code>:sparkles:</code>​</td>
+<td>新增功能、特性</td>
+</tr>
+<tr>
+<td><img alt="🔥" class="emojione" src="https://twemoji.maxcdn.com/v/latest/svg/1f525.svg" title=":fire:" /> <code>:fire:</code></td>
+<td>删除文件</td>
+</tr>
+<tr>
+<td><img alt="💄" class="emojione" src="https://twemoji.maxcdn.com/v/latest/svg/1f484.svg" title=":lipstick:" /> <code>:lipstick:</code></td>
+<td>修改 Wiki 外观</td>
+</tr>
+<tr>
+<td><img alt="🚧" class="emojione" src="https://twemoji.maxcdn.com/v/latest/svg/1f6a7.svg" title=":construction:" /> <code>:construction:</code></td>
+<td>工作进行中，尚未完成</td>
+</tr>
+<tr>
+<td><img alt="👷" class="emojione" src="https://twemoji.maxcdn.com/v/latest/svg/1f477.svg" title=":construction_worker:" /> <code>:construction_worker:</code></td>
+<td>添加或更新 CI 配置</td>
+</tr>
+<tr>
+<td><img alt="🔧" class="emojione" src="https://twemoji.maxcdn.com/v/latest/svg/1f527.svg" title=":wrench:" /> <code>:wrench:</code>​</td>
+<td>修改配置文件</td>
+</tr>
+<tr>
+<td><img alt="🙈" class="emojione" src="https://twemoji.maxcdn.com/v/latest/svg/1f648.svg" title=":see_no_evil:" /> <code>:see_no_evil:</code>​</td>
+<td>修改 <code>.gitignore</code> 文件</td>
+</tr>
+</tbody>
+</table>
+<p>在 <code>&lt;描述&gt;</code> 中，需清晰地描述出修改了什么内容以及文件或页面，例如：</p>
+<ul>
+<li><img alt="✨" class="emojione" src="https://twemoji.maxcdn.com/v/latest/svg/2728.svg" title=":sparkles:" /> 添加脚注功能</li>
+<li><img alt="🙈" class="emojione" src="https://twemoji.maxcdn.com/v/latest/svg/1f648.svg" title=":see_no_evil:" /> ​将 yarn.lock 添加至 .gitignore</li>
+<li><img alt="✏️" class="emojione" src="https://twemoji.maxcdn.com/v/latest/svg/270f.svg" title=":pencil2:" /> ​修复了 README.md 的排版问题</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">注意</p>
+<p><strong>一个 commit 的粒度不宜过大</strong>，如果过大，需拆分成多个 commit。</p>
+</div>
                 
               
               
@@ -1844,7 +1914,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../soft/" title="软件安装包" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../howto/" title="如何参与贡献" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -1853,19 +1923,19 @@
                 <span class="md-footer-nav__direction">
                   上一页
                 </span>
-                软件安装包
+                如何参与贡献
               </div>
             </div>
           </a>
         
         
-          <a href="../../photo/intro/" title="引导" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../member/" title="当前人员分配" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   下一页
                 </span>
-                引导
+                当前人员分配
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">
