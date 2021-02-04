@@ -4,8 +4,8 @@
 
 ### 下载
 
-1\.[官网](https://www.sourcetreeapp.com/)
+1.[官网](https://www.sourcetreeapp.com/)
 
-2\. 蓝奏云（官网可能有点慢）
+2.蓝奏云（官网可能有点慢）
 
 [SourceTreeSetup-3.4.1.exe](https://hanbaoaaa.lanzous.com/ijBz6la9a2h)
