@@ -121,6 +121,7 @@ extra_css:
 markdown_extensions:
   - smarty
   - admonition
+  - footnotes
   - pymdownx.emoji:
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.highlight:
