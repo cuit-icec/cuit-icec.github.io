@@ -127,6 +127,9 @@ git clone https://hub.fastgit.org/cuit-icec/cuit-icec.github.io.git
 
 一般来说当前是 **最新的分支状态** 的话，直接就顺利提交了。
 
+!!! warning "注意"
+    **一个 commit 包含的内容不宜过多**，如果过多，需拆分成多个 commit。
+
 有些时候可能会提交不成功，因为不是最新的，![image-20210204022617940](https://gitee.com/zhongyichen33/testtupian/raw/master/20210204022618.png) 有数字，那么我们需要 **先拉取** 一下，以同步最新的 commit，然后提交。一般来说，没有 **冲突** 的话，这一步就顺利提交了。
 
 最坏的一种情况，出现了**冲突**（本地的改动和最新的 commit 的改动在同一个地方进行了修改）

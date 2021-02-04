@@ -29,9 +29,6 @@
 - :see_no_evil: ​将 yarn.lock 添加至 .gitignore
 - :pencil2: ​修复了 README.md 的排版问题
 
-!!! warning "注意"
-    **一个 commit 的粒度不宜过大**，如果过大，需拆分成多个 commit。
-
 ## 参考链接
 
 [^1]: [gitmoji | An emoji guide for your commit messages](https://gitmoji.dev/)
