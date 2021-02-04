@@ -2200,6 +2200,10 @@
 <p>点击 <strong>暂存所有</strong>，在下方栏目中写上本次提交的信息，请参考 <a href="../commit-messages/">commit messages 规范</a>，然后点击 <strong>提交</strong>；</p>
 <p><img alt="image-20210204022403436" src="https://gitee.com/zhongyichen33/testtupian/raw/master/20210204022403.png" /></p>
 <p>一般来说当前是 <strong>最新的分支状态</strong> 的话，直接就顺利提交了。</p>
+<div class="admonition warning">
+<p class="admonition-title">注意</p>
+<p><strong>一个 commit 包含的内容不宜过多</strong>，如果过多，需拆分成多个 commit。</p>
+</div>
 <p>有些时候可能会提交不成功，因为不是最新的，<img alt="image-20210204022617940" src="https://gitee.com/zhongyichen33/testtupian/raw/master/20210204022618.png" /> 有数字，那么我们需要 <strong>先拉取</strong> 一下，以同步最新的 commit，然后提交。一般来说，没有 <strong>冲突</strong> 的话，这一步就顺利提交了。</p>
 <p>最坏的一种情况，出现了<strong>冲突</strong>（本地的改动和最新的 commit 的改动在同一个地方进行了修改）</p>
 <p>如图：</p>
