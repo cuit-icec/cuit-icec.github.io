@@ -103,12 +103,13 @@ nav:
         - 工具: pro/mechine_learning/programming/tools.md
 
 theme:
-  name: 'material'
+  name: null
+  custom_dir: 'mkdocs-material/material'
   language: 'zh'
   include_search_page: false
   search_index_only: true
   features:
-    - tabs
+    - navigation.tabs
   font:
     text: 'Fira Sans'
     code: 'Fira Mono'
@@ -125,6 +126,7 @@ extra_javascript:
 
 extra_css:
   - 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css'
+  - '_static/css/extra.css?v=1'
 
 markdown_extensions:
   - smarty
