@@ -12,7 +12,9 @@
 
 * 部长：牛致远
 
-* 部员：吴纯辉&emsp;黄炎&emsp;童洋忠&emsp;张家诚&emsp;李晟东&emsp;袁田果&emsp;周孝宗&emsp;张苗&emsp;张海泽&emsp;朱自翔&emsp;&emsp;谭丰伟
+* 部员：吴纯辉&emsp;黄炎&emsp;童洋忠&emsp;张家诚&emsp;李晟东&emsp;袁田果&emsp;周孝宗&emsp;张苗&emsp;张海泽   
+
+  &emsp;&emsp;&emsp;朱自翔&emsp;谭丰伟
 
 #### 硬件部
 
