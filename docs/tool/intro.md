@@ -8,7 +8,7 @@
 
 ### 硬件
 
-### fpga
+### FPGA
 
 ### [项目管理协作](manage/intro.md)
 
