@@ -107,6 +107,13 @@ nav:
           - 工具: pro/mechine_learning/programming/tools.md
       - 深度学习:
         - 引导: pro/deep_learning/intro.md
+    - 测量与控制技术: 
+      - 测控技术简介: pro/measurement_control_tec/introduce.md
+      - 测控相关竞赛:
+       - 电赛: pro/measurement_control_tec/contest/NUEDC.md
+       - 飞卡: pro/measurement_control_tec/contest/NXP.md
+      - 测控相关算法:
+       - 滤波算法: pro/measurement_control_tec/programing/filter.md
 
 theme:
   name: null
