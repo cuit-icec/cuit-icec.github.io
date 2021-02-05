@@ -12,19 +12,19 @@
 
 假设有两堆样本（A是蓝色圆圈，B是红色叉叉）：
 
-<img src="..\..\..\_static\images\0c93b5efd5fd5601ed475d2c8a0e6dcd.png" alt="20210205201229" style="zoom:100%;" />
+![0c93b5efd5fd5601ed475d2c8a0e6dcd](..\..\..\_static\images\0c93b5efd5fd5601ed475d2c8a0e6dcd.png)
 
 我们要将他分类，那么监督学习和非监督学习的工作原理的区别是怎样的？
 
 **监督学习是这样的**：
 
-<img src="..\..\..\_static\images\20210205201229.png" alt="20210205201229" style="zoom:50%;" />
+![20210205201229](..\..\..\_static\images\20210205201229.png)
 
 监督学习是找到这样一条分类线，在分类线以下的数据是A, 分类线以上的数据是B。
 
 **但是无监督学习是这样的**：
 
-<img src="..\..\..\_static\images\94f0b1d26de3923fc4ae934ec05c66ab.png" alt="20210205201229" style="zoom:100%;" />
+![94f0b1d26de3923fc4ae934ec05c66ab](..\..\..\_static\images\94f0b1d26de3923fc4ae934ec05c66ab.png)
 
 找到两个圈去分类这两个数据，因为他认为这两个数据具有不同的特征表现。
 
