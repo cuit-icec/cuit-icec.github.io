@@ -102,7 +102,7 @@ nav:
         - 基础知识:
           - 监督学习: pro/mechine_learning/basic_knowledge/supervised_learning.md
           - 无监督学习: pro/mechine_learning/basic_knowledge/unsupervised_learning.md
-          - 线性回归: pro/mechine_learning/basic_knowledge/linear_regression.md
+          - 梯度下降: pro/mechine_learning/basic_knowledge/gredient_descent.md
         - 编程实践:
           - 工具: pro/mechine_learning/programming/tools.md
       - 深度学习:
