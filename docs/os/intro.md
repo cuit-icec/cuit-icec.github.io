@@ -110,5 +110,5 @@ void isr2(void) {
 [^3]: [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
 [^4]: [MMU_百度百科 (baidu.com)](https://baike.baidu.com/item/MMU)
 [^5]: [No-MMU memory mapping support (Linux Kernel Documentation)](https://www.kernel.org/doc/Documentation/nommu-mmap.txt)
-[^6]: [[野火\]《FreeRTOS内核实现与应用开发实战指南》系列 — 野火产品资料下载中心 文档 (embedfire.com)](http://doc.embedfire.com/products/link/zh/latest/tutorial/ebf_freertos_tutorial.html)
+[^6]: [《FreeRTOS内核实现与应用开发实战指南》系列 — 野火产品资料下载中心 文档 (embedfire.com)](http://doc.embedfire.com/products/link/zh/latest/tutorial/ebf_freertos_tutorial.html)
 
