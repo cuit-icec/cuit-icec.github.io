@@ -16,7 +16,7 @@
     
     
       
-        <title>线性回归 - CUIT ICEC Wiki</title>
+        <title>梯度下降 - CUIT ICEC Wiki</title>
       
     
     
@@ -53,6 +53,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -81,7 +86,7 @@
         <div class="md-header-nav__topic">
           <span class="md-ellipsis">
             
-              线性回归
+              梯度下降
             
           </span>
         </div>
@@ -1964,9 +1969,64 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          梯度下降
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
-        线性回归
+        梯度下降
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    引言
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    从线性回归说起...
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    梯度下降来了
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    总结
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    FAQ
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2215,19 +2275,142 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    引言
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    从线性回归说起...
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    梯度下降来了
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    总结
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    FAQ
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/cuit-icec/cuit-icec.github.io/edit/main/docs/pro/mechine_learning/basic_knowledge/linear_regression.md" title="编辑此页" class="md-content__button md-icon">
+                  <a href="https://github.com/cuit-icec/cuit-icec.github.io/edit/main/docs/pro/mechine_learning/basic_knowledge/gredient_descent.md" title="编辑此页" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                  <h1>线性回归</h1>
+                  <h1>梯度下降</h1>
                 
-                
+                <h2 id="_1">引言<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>这一小节可能对你的线性代数和微积分有一定的基础。在这里我将告诉你，前面的监督学习是如何做到拟合曲线的，这个背后用到的算法就是——<strong>梯度下降（Gredient Descent）</strong><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+<h2 id="_2">从线性回归说起&hellip;<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p>下面是一张房价预测特征分布的分布曲线（红叉表示数据样本）：</p>
+<p><img alt="image-20210206201313022" src="../../../_static\images\image-20210206201313022.png" /></p>
+<p>我们要做的是，找到一根直线(也可以是曲线)去尽量的拟合这些数据，这里我们用<strong>线性回归</strong><sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>来做的这件事。下面我将告诉你线性回归是如何做的。这部分的内容需要你反复推敲和理解，我尽量用人话让你明白。</p>
+<p>首先，我们需要一个<strong>预测函数</strong>（你可以理解为拟合数据的曲线），这里我们用的线性回归，所以就定义的是一个线性函数：
+$$
+h_{\theta}(x)=\theta_{0}+\theta_{1} x
+$$
+这里有两个参数 $\theta_{0}$和$\theta_{1}$，分别表示两个特征，其实 $\theta_{0}$是 $x_{0}$的系数，但是$x_{0}$ = 1，所以我们也称$\theta_{0}$为<strong>截距</strong>。我们既然要拟合那条曲线，那么我们就要确定$\theta_{0}$和$\theta_{1}$的值。</p>
+<p>你会问如何去确定这个参数呢，其实很简单，我们要找的就是衡量参数好坏的标准函数而已。而这个标准函数已经定好了，我们也把他叫做<strong>损失函数(loss function)</strong>，对于线性回归模型，损失函数是这样的：
+$$
+J\left(\theta_{0}, \theta_{1}\right)=\frac{1}{2 m} \sum_{i=1}^{m}\left(h_{\theta}\left(x^{(i)}\right)-y^{(i)}\right)^{2}
+$$
+这个公式看不懂没有关系，我慢慢跟你解释。$\left(h_{\theta}\left(x^{(i)}\right)-y^{(i)}\right)$里面的$h_{\theta}\left(x^{(i)}\right)$是表示预测函数预测的值， $y^{(i)}$表示是你用于监督学习的标签数据(正确答案)，两者的差就是<strong>误差</strong>，将误差平方后可以消除负数项，由于有m个数据，这里就先求和再取平均值；这里可能会问为什么会有这个 $\frac{1}{2}$ ，其实这里是方便后面做梯度下降时求导。下面就是如何矫正参数的过程了，也是今天的主角——梯度下降。</p>
+<h2 id="_3">梯度下降来了<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<p>梯度下降中的梯度就是微积分中的<strong>梯度</strong><sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>了。不懂的好好看看高数书吧，这里我就不多说了。其实这里梯度跟生活中的梯度是一样的：假设你在山坡的某个点上面，往山谷的方向就是梯度的方向。</p>
+<p>同理，在三维的曲面上，我们要做的是沿着梯度的方向到达最小值(山谷)的位置：</p>
+<p><img alt="image-20210206211814148" src="../../../_static\images\image-20210206211814148.png" /></p>
+<p>做梯度下降后是等高线模型上是这样的：</p>
+<p><img alt="image-20210206212418392" src="../../../_static\images\image-20210206212418392.png" /></p>
+<p>这张图更加直观一点：</p>
+<p><img alt="image-20210206213554257" src="../../../_static\images\image-20210206213554257.png" /></p>
+<p>一维特征情况下是这样做梯度下降的：</p>
+<p><img alt="image-20210206212550264" src="../../../_static\images\image-20210206212550264.png" /></p>
+<p>好了，现在该开始和你说，梯度下降是如何工作的了：</p>
+<p>线性回归给出的<strong>梯度下降公式</strong>是这样的，通过不断地迭代更新$\theta$:
+$$
+\theta_{j}:=\theta_{j}-\alpha \frac{\partial}{\partial \theta_{j}} J\left(\theta_{0}, \theta_{1}\right) \quad(\text { for } j=0 \text { and } j=1)
+$$</p>
+<p>其中的$\alpha$我们称之为<strong>学习率（Learning Rate）</strong>，我们可以通过调节学习率的大小调节，梯度下降时的步长，如何你把学习率设置的太小，他会训练的很慢；从数学上说，就是收敛速度很慢。如果你把学习率设置过，梯度下降就可能直接越过最优解，达不到收敛的效果。如下图：</p>
+<p><img alt="image-20210206213647408" src="../../../_static\images\image-20210206213647408.png" /></p>
+<p>梯度下降算法，更新参数的公式是这样的：</p>
+<p>$$
+\begin{array}{l}
+\theta_{0}:=\theta_{0}-\alpha \frac{1}{m} \sum_{i=1}^{m}\left(h_{\theta}\left(x^{(i)}\right)-y^{(i)}\right) 
+\\
+\theta_{1}:=\theta_{1}-\alpha \frac{1}{m} \sum^{m}\left(h_{\theta}\left(x^{(i)}\right)-y^{(i)}\right) \cdot x^{(i)}
+\end{array}
+$$
+写代码的时候就可以根据这个公式做到更新迭代参数，只要只要达到了最优解的话，$\left(h_{\theta}\left(x^{(i)}\right)-y^{(i)}\right)$这一项就等于0，$\theta$就不会更新了，从而确定了$\theta$值，$\theta$一确定，拟合曲线就确定了。那么就会像下面这张图片这样：</p>
+<p><img alt="image-20210206214447093" src="../../../_static\images\image-20210206214447093.png" /></p>
+<p>这样就完成了一个完整的线性回归任务！</p>
+<h2 id="_4">总结<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<p>梯度下降法，是目前最有效的求解最小值的方法，广泛的用于机器学习和深度学习中。梯度下降的原理就是不断地向梯度方向挪一定的步长，从而得到最小值。</p>
+<h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Permanent link">&para;</a></h2>
+<ol>
+<li>梯度下降是不是能够求解所有函数的最优解？</li>
+</ol>
+<blockquote>
+<p>不是，从上面梯度下降的机理来看，梯度下降法只在<strong>凸函数(只有一个极值且最值)</strong> 上面才能够表现得比较好，即函数不能有多个极小值。如果一个函数有多个极小值，那么梯度下降法很容易得到的是<strong>局部最优解</strong>而不是<strong>全局最优解</strong>。</p>
+</blockquote>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p><a href="https://baike.baidu.com/item/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D/4864937?fr=aladdin">梯度下降_百度百科(baidu.com)</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://baike.baidu.com/item/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92">线性回归_百度百科(baidu.com)</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://baike.baidu.com/item/%E6%A2%AF%E5%BA%A6/13014729">梯度_百度百科(baidu.com)</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
                 <hr />
 
 <blockquote class="page-copyright">
