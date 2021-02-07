@@ -24,6 +24,8 @@ nav:
       - 集体合照: icec/photo/together.md
       - 历年电赛: icec/photo/ticomp.md
     - 视频: icec/video.md
+    - 加入我们: icec/joinus.md
+    - 联系我们: icec/contactus.md
     # - About: about.md
   - 学习路线:
     - 对大一新生的指路: study_route/to_fresh.md
@@ -61,8 +63,6 @@ nav:
       - Python: programming/language/python.md
     - 设计思想:
       - 认识设计思想: programming/design_thougt/intro.md
-    - 系统:
-      - 认识系统: programming/system/intro.md
   - 硬件基础: 
     - 模数电知识: hardware/elec.md
     - 仿真软件的使用: hardware/simu.md
@@ -88,6 +88,8 @@ nav:
     - CAN: protocol/can.md
     - UART: protocol/uart.md
     - USB: protocol/usb.md
+  - 操作系统:
+    - 引导: os/intro.md
   - 模块/芯片:
     - 传感器: module/sensor.md
     - 显示  : module/display.md
@@ -99,11 +101,20 @@ nav:
       - 机器学习: 
         - 引导: pro/mechine_learning/introduce.md
         - 基础知识:
-          - 线性回归: pro/mechine_learning/basic_knowledge/linear_regression.md
+          - 监督学习: pro/mechine_learning/basic_knowledge/supervised_learning.md
+          - 无监督学习: pro/mechine_learning/basic_knowledge/unsupervised_learning.md
+          - 梯度下降: pro/mechine_learning/basic_knowledge/gredient_descent.md
         - 编程实践:
           - 工具: pro/mechine_learning/programming/tools.md
       - 深度学习:
         - 引导: pro/deep_learning/intro.md
+    - 测量与控制技术:
+      - 测控技术简介: pro/measurement_control_tec/introduce.md
+      - 测控相关竞赛:
+        - 电赛: pro/measurement_control_tec/contest/NUEDC.md
+        - 飞卡: pro/measurement_control_tec/contest/NXP.md
+      - 测控相关算法:
+        - 滤波算法: pro/measurement_control_tec/programing/filter.md
 
 theme:
   name: null
