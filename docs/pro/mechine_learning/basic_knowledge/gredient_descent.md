@@ -66,7 +66,7 @@ $$
 \begin{array}{l}
 \theta_{0}:=\theta_{0}-\alpha \frac{1}{m} \sum_{i=1}^{m}\left(h_{\theta}\left(x^{(i)}\right)-y^{(i)}\right) 
 \\\\
-\theta_{1}:=\theta_{1}-\alpha \frac{1}{m} \sum^{m}\left(h_{\theta}\left(x^{(i)}\right)-y^{(i)}\right) \cdot x^{(i)}
+\theta_{1}:=\theta_{1}-\alpha \frac{1}{m} \sum_{i=1}^{m}\left(h_{\theta}\left(x^{(i)}\right)-y^{(i)}\right) \cdot x^{(i)}
 \end{array}
 $$
 写代码的时候就可以根据这个公式做到更新迭代参数，只要只要达到了最优解的话，$\left(h_{\theta}\left(x^{(i)}\right)-y^{(i)}\right)$这一项就等于0，$\theta$就不会更新了，从而确定了$\theta$值，$\theta$一确定，拟合曲线就确定了。那么就会像下面这张图片这样：

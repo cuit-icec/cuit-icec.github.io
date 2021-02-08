@@ -104,6 +104,7 @@ nav:
           - 监督学习: pro/mechine_learning/basic_knowledge/supervised_learning.md
           - 无监督学习: pro/mechine_learning/basic_knowledge/unsupervised_learning.md
           - 梯度下降: pro/mechine_learning/basic_knowledge/gredient_descent.md
+          - 多变量线性回归: pro/mechine_learning/basic_knowledge/mult_vari_linear_regression.md
         - 编程实践:
           - 工具: pro/mechine_learning/programming/tools.md
       - 深度学习:
