@@ -9,29 +9,34 @@
 ![591785837c95bca369021efa14a8bb1c](../../../_static/images/591785837c95bca369021efa14a8bb1c.png)
 
 像这样一个多维特征，我们就可以写成一个**多维向量**表示的多维特征向量的形式，写成一个 $\mathbf{X}$ 向量：
+
 $$
 \mathbf{X}=\left[\begin{array}{c}
-1 \\
-x_{1} \\
-x_{2} \\
-x_{3} \\
+1 \\\\
+x_{1} \\\\
+x_{2} \\\\
+x_{3} \\\\
 x_{4}
 \end{array}\right]
 $$
+
 为什么有一个 1，因为在前面说了在具有偏置的情况下，有一个$x_0 = 1$，那个 1 就是 $x_0$。同样的，我们就添加一个偏置，这样就有5个参数 $\theta$，写成一个 $\mathbf{\Theta}$ 向量：
+
 $$
 \mathbf{\Theta}=\left[\begin{array}{c}
-\theta_0 \\
-\theta_1 \\
-\theta_2 \\
-\theta_3 \\
+\theta_0 \\\\
+\theta_1 \\\\
+\theta_2 \\\\
+\theta_3 \\\\
 \theta_4
 \end{array}\right]
 $$
+
 这样的话，我们的**多维线性回归方程**的预测函数，就可以写成：
+
 $$
 h_{\theta}(x) = \Theta^{T} X = \left[\begin{array}{cccc}
-\theta_0 & \theta_1 & \theta_2 & \theta_3 & \theta_4 \\ \end{array}\right] \left[\begin{array}{c} 1 \\x_{1} \\x_{2} \\x_{3} \\x_{4}\end{array}\right] \\= \theta_{0}+\theta_{1} x_1+\theta_{2} x_2+\theta_{3} x_3+\theta_{4} x_4
+\theta_0 & \theta_1 & \theta_2 & \theta_3 & \theta_4 \\\\ \end{array}\right] \left[\begin{array}{c} 1 \\\\x_{1} \\\\x_{2} \\\\x_{3} \\\\x_{4}\end{array}\right] \\\\= \theta_{0}+\theta_{1} x_1+\theta_{2} x_2+\theta_{3} x_3+\theta_{4} x_4
 $$
 
 
@@ -43,7 +48,7 @@ $$
 $$
 \begin{array}{l}
 \theta_{0}:=\theta_{0}-\alpha \frac{1}{m} \sum_{i=1}^{m}\left(h_{\theta}\left(x^{(0)}\right)-y^{(0)}\right) 
-\\\\
+\\\\\\\\
 \theta_{1}:=\theta_{1}-\alpha \frac{1}{m} \sum_{i=1}^{m}\left(h_{\theta}\left(x^{(1)}\right)-y^{(1)}\right) \cdot x^{(1)}
 \end{array}
 $$
@@ -57,13 +62,13 @@ $$
 $$
 \begin{array}{l}
 \theta_{0}:=\theta_{0}-\alpha \frac{1}{m} \sum_{i=1}^{m}\left(h_{\theta}\left(x^{(0)}\right)-y^{(0)}\right) 
-\\\\
+\\\\\\\\
 \theta_{1}:=\theta_{1}-\alpha \frac{1}{m} \sum_{i=1}^{m}\left(h_{\theta}\left(x^{(1)}\right)-y^{(1)}\right) \cdot x^{(1)}
-\\\\
+\\\\\\\\
 \theta_{2}:= \theta_{2}-\alpha \frac{1}{m} \sum_{i=1}^{m}\left(h_{\theta}\left(x^{(2)}\right)-y^{(2)}\right) \cdot x^{(2)}
-\\\\
+\\\\\\\\
 \theta_{3}:= \theta_{3}-\alpha \frac{1}{m} \sum_{i=1}^{m}\left(h_{\theta}\left(x^{(3)}\right)-y^{(3)}\right) \cdot x^{(3)}
-\\\\
+\\\\\\\\
 \theta_{4}:= \theta_{4}-\alpha \frac{1}{m} \sum_{i=1}^{m}\left(h_{\theta}\left(x^{(4)}\right)-y^{(4)}\right) \cdot x^{(4)}
 \end{array}
 $$
