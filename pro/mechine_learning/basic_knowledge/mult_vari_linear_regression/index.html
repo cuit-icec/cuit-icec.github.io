@@ -2051,6 +2051,18 @@
   
 
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../normal_equation/" class="md-nav__link">
+        正规方程
+      </a>
+    </li>
+  
+
+          
         </ul>
       </nav>
     </li>
@@ -2375,37 +2387,37 @@
 <h2 id="_2">多维特征<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
 <p>下面是一张房价预测的表格，其中可以看出影响房价变化的特征有四个分别是：<code>Size</code>, <code>Number of bedrooms</code>, <code>Number of floors</code>, <code>Age of home</code>：</p>
 <p><img alt="591785837c95bca369021efa14a8bb1c" src="../../../../_static/images/591785837c95bca369021efa14a8bb1c.png" /></p>
-<p>像这样一个多维特征，我们就可以写成一个<strong>多维向量</strong>表示的多维特征向量的形式，写成一个 $\mathbf{X}$ 向量：
-$$
+<p>像这样一个多维特征，我们就可以写成一个<strong>多维向量</strong>表示的多维特征向量的形式，写成一个 $\mathbf{X}$ 向量：</p>
+<p>$$
 \mathbf{X}=\left[\begin{array}{c}
-1 \
-x_{1} \
-x_{2} \
-x_{3} \
+1 \\
+x_{1} \\
+x_{2} \\
+x_{3} \\
 x_{4}
 \end{array}\right]
-$$
-为什么有一个 1，因为在前面说了在具有偏置的情况下，有一个$x_0 = 1$，那个 1 就是 $x_0$。同样的，我们就添加一个偏置，这样就有5个参数 $\theta$，写成一个 $\mathbf{\Theta}$ 向量：
-$$
+$$</p>
+<p>为什么有一个 1，因为在前面说了在具有偏置的情况下，有一个$x_0 = 1$，那个 1 就是 $x_0$。同样的，我们就添加一个偏置，这样就有5个参数 $\theta$，写成一个 $\mathbf{\Theta}$ 向量：</p>
+<p>$$
 \mathbf{\Theta}=\left[\begin{array}{c}
-\theta_0 \
-\theta_1 \
-\theta_2 \
-\theta_3 \
+\theta_0 \\
+\theta_1 \\
+\theta_2 \\
+\theta_3 \\
 \theta_4
 \end{array}\right]
-$$
-这样的话，我们的<strong>多维线性回归方程</strong>的预测函数，就可以写成：
-$$
+$$</p>
+<p>这样的话，我们的<strong>多维线性回归方程</strong>的预测函数，就可以写成：</p>
+<p>$$
 h_{\theta}(x) = \Theta^{T} X = \left[\begin{array}{cccc}
-\theta_0 &amp; \theta_1 &amp; \theta_2 &amp; \theta_3 &amp; \theta_4 \ \end{array}\right] \left[\begin{array}{c} 1 \x_{1} \x_{2} \x_{3} \x_{4}\end{array}\right] \= \theta_{0}+\theta_{1} x_1+\theta_{2} x_2+\theta_{3} x_3+\theta_{4} x_4
+\theta_0 &amp; \theta_1 &amp; \theta_2 &amp; \theta_3 &amp; \theta_4 \\ \end{array}\right] \left[\begin{array}{c} 1 \\x_{1} \\x_{2} \\x_{3} \\x_{4}\end{array}\right] \\= \theta_{0}+\theta_{1} x_1+\theta_{2} x_2+\theta_{3} x_3+\theta_{4} x_4
 $$</p>
 <h2 id="_3">多变量梯度下降<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
 <p>上一节的例子只有两个 $\theta$：$\theta_0$ 和 $\theta_1$，是这样用梯度下降更新的：</p>
 <p>$$
 \begin{array}{l}
 \theta_{0}:=\theta_{0}-\alpha \frac{1}{m} \sum_{i=1}^{m}\left(h_{\theta}\left(x^{(0)}\right)-y^{(0)}\right) 
-\\
+\\\\
 \theta_{1}:=\theta_{1}-\alpha \frac{1}{m} \sum_{i=1}^{m}\left(h_{\theta}\left(x^{(1)}\right)-y^{(1)}\right) \cdot x^{(1)}
 \end{array}
 $$</p>
@@ -2417,13 +2429,13 @@ $$
 $$
 \begin{array}{l}
 \theta_{0}:=\theta_{0}-\alpha \frac{1}{m} \sum_{i=1}^{m}\left(h_{\theta}\left(x^{(0)}\right)-y^{(0)}\right) 
-\\
+\\\\
 \theta_{1}:=\theta_{1}-\alpha \frac{1}{m} \sum_{i=1}^{m}\left(h_{\theta}\left(x^{(1)}\right)-y^{(1)}\right) \cdot x^{(1)}
-\\
+\\\\
 \theta_{2}:= \theta_{2}-\alpha \frac{1}{m} \sum_{i=1}^{m}\left(h_{\theta}\left(x^{(2)}\right)-y^{(2)}\right) \cdot x^{(2)}
-\\
+\\\\
 \theta_{3}:= \theta_{3}-\alpha \frac{1}{m} \sum_{i=1}^{m}\left(h_{\theta}\left(x^{(3)}\right)-y^{(3)}\right) \cdot x^{(3)}
-\\
+\\\\
 \theta_{4}:= \theta_{4}-\alpha \frac{1}{m} \sum_{i=1}^{m}\left(h_{\theta}\left(x^{(4)}\right)-y^{(4)}\right) \cdot x^{(4)}
 \end{array}
 $$
@@ -2495,13 +2507,13 @@ $$
           </a>
         
         
-          <a href="../../programming/tools/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../normal_equation/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   下一页
                 </span>
-                工具
+                正规方程
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">
