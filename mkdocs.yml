@@ -39,6 +39,9 @@ nav:
       - 协作管理相关的工具: tool/manage/intro.md
       - 版本管理工具git: tool/manage/git.md
       - git图形界面sourcetree: tool/manage/sourcetree.md
+    - 结构设计:
+      - 3D打印机:
+        - 实验室3D打印机使用指南: tool/structure_design/3dprinter_user_guide.md
     - 编程:
       - 编程相关的工具: tool/software/intro.md
       - 编辑器: 
